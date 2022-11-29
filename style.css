@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-width:500px;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar{
+    background-color: #F55A5A;
+    height: 55px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    padding: 0 110px;
+}
+
+.navbar img{
+    padding-right: 8px;
+    width: 24px;
+}
+
+.location-img{
+    height: 170px;
+    width: 125px;
+    border-radius: 9px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.location-icon{
+    height: 15px;
+    width: 15px;
+    border-radius: 9px;
+}
+
+section{
+    padding: 20px;
+}
+
+.journal a {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.journal {
+    display: flex;
+}
+
+.location{
+    display: flex;
+    font-size: 12px;
+    margin-top: 15px
+}
+
+.place{
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 3px;
+}
+
+.journal h1{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.date{
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.description{
+    margin-top: 8px;
+    font-size: 12px;
+    max-width: 300px;
+}
